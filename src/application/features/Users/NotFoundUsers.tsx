@@ -1,3 +1,5 @@
+import { User } from "@/ts";
+
 type Props = {
 	users: User[] | undefined;
 };
