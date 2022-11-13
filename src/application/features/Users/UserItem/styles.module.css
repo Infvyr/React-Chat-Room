@@ -1,0 +1,20 @@
+.default{
+  @apply flex items-center gap-x-3 rounded-full hover:bg-gray-200 dark:hover:bg-gray-600 focus:outline-none focus:bg-gray-200 dark:focus:bg-gray-600 transition-colors
+}
+
+.default:hover .name,
+.default:focus .name{
+  @apply text-gray-900 dark:text-white
+}
+
+.active{
+  @apply bg-gray-200 dark:bg-gray-600
+}
+
+.active .name{
+  @apply text-gray-900 dark:text-white
+}
+
+.name{
+  @apply text-gray-400 transition-colors
+}

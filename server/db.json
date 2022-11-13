@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "name": "Martin Kelly",
+      "photo": "https://i.pravatar.cc/300?img=60"
+    },
+    {
+      "id": "6o7ssy4d-2z9d-9bfd-4dac-2b9j8y4tbc1n",
+      "name": "Clara Philips",
+      "photo": "https://i.pravatar.cc/300?img=47"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-9b5d-za0dfbbd4bed",
+      "userId": "6o7ssy4d-2z9d-9bfd-4dac-2b9j8y4tbc1n",
+      "createdAt": "2022-11-01T15:53:17+0000",
+      "body": "IDK!",
+      "layout": "left",
+      "from": ""
+    },
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-xbbfd-za0dfbbd4bed",
+      "userId": "6o7ssy4d-2z9d-9bfd-4dac-2b9j8y4tbc1n",
+      "createdAt": "2022-11-01T15:53:17+0000",
+      "body": "Sure? It seems like you are about to leave it.",
+      "layout": "right",
+      "from": "You"
+    },
+    {
+      "id": "2b3g6dcd-bbfd-2b4d-9b5d-ab9kfbbd4bed",
+      "userId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "createdAt": "2022-11-10T10:43:34+0000",
+      "body": "How about we get together for coffee this weekend?",
+      "layout": "right",
+      "from": "You"
+    },
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4bed",
+      "userId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "createdAt": "2022-11-11T10:45:16+0000",
+      "body": "Amazing!",
+      "layout": "left",
+      "from": ""
+    },
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd4sed",
+      "userId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "createdAt": "2022-11-11T10:45:20+0000",
+      "body": "That sounds like an awesome plan to me!😍",
+      "layout": "left",
+      "from": ""
+    },
+    {
+      "id": "1b9d6bcd-bbfd-4b2d-9b5d-ab8dfbbd3aez",
+      "userId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "createdAt": "2022-11-11T10:48:21+0000",
+      "body": "Nice! Are you in?",
+      "layout": "right",
+      "from": "You"
+    },
+    {
+      "id": "1b9d6bcd-4b2d-bbfd-9b5d-ab8dfbbd3aez",
+      "userId": "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+      "createdAt": "2022-11-11T10:50:30+0000",
+      "body": "Of course, I'm in!",
+      "layout": "left",
+      "from": ""
+    }
+  ]
+}

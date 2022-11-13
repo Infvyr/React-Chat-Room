@@ -1,0 +1,53 @@
+{
+	"name": "nextlogic-react-test",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "concurrently \"yarn start\" \"yarn server\"",
+		"start": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"lint": "eslint .",
+		"lint:fix": "eslint --fix",
+		"format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+		"server": "json-server -w server/db.json -p 3001"
+	},
+	"dependencies": {
+		"@headlessui/react": "^1.7.4",
+		"jotai": "^1.9.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-error-boundary": "^3.1.4",
+		"react-feather": "^2.0.10",
+		"react-router-dom": "^6.4.3",
+		"react-textarea-autosize": "^8.4.0",
+		"swr": "^1.3.0",
+		"uuid": "^9.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"@types/react": "^18.0.24",
+		"@types/react-dom": "^18.0.8",
+		"@types/uuid": "^8.3.4",
+		"@typescript-eslint/eslint-plugin": "^5.42.1",
+		"@typescript-eslint/parser": "^5.42.1",
+		"@vitejs/plugin-react": "^2.2.0",
+		"autoprefixer": "^10.4.13",
+		"concurrently": "^7.5.0",
+		"cssnano": "^5.1.14",
+		"cssnano-preset-advanced": "^5.3.9",
+		"eslint": "^8.27.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-react": "^7.31.10",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"json-server": "^0.17.1",
+		"postcss": "^8.4.18",
+		"prettier": "^2.7.1",
+		"tailwindcss": "^3.2.2",
+		"typescript": "^4.6.4",
+		"vite": "^3.2.3"
+	}
+}

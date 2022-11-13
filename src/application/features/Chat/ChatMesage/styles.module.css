@@ -1,0 +1,23 @@
+.chat-wrapper{
+  @apply px-5 min-h-[30px] h-full sticky bottom-0 left-0 right-0 z-[1]
+}
+
+.chat-inner-wrapper{
+  @apply flex items-end gap-x-4 h-full
+}
+
+.chat-message{
+  @apply grow shrink basis-4/5 relative
+}
+
+.textarea{
+  @apply pr-16 w-full min-h-[44px] resize-none border-none focus:outline-none focus:ring-1
+}
+
+.btn{
+  @apply gap-x-2 !min-h-[44px]
+}
+
+.send-text{
+  @apply hidden sm:block
+}

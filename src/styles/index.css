@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply text-gray-900 bg-gray-100 dark:text-white dark:bg-gray-800 text-base antialiased;
+	}
+
+	h1 {
+		@apply text-xl md:text-3xl;
+	}
+
+	h2 {
+		@apply text-lg md:text-2xl;
+	}
+
+	h3 {
+		@apply text-[1.05rem] md:text-xl;
+	}
+
+	label {
+		@apply cursor-pointer;
+	}
+
+	input:not(.search),
+	select,
+	textarea {
+		@apply px-2 rounded border border-gray-900 text-gray-900;
+	}
+
+	input,
+	select {
+		@apply min-h-[34px];
+	}
+
+	input[type="text"]:not(.search),
+	textarea{
+		@apply bg-white dark:bg-gray-700 dark:text-white
+	}
+
+	select {
+		@apply appearance-none;
+	}
+
+	textarea {
+		@apply py-1;
+	}
+
+	.btn,
+	button,
+	button[type="button"] {
+		@apply inline-flex items-center justify-center px-4 min-h-[40px] md:min-h-[36px] rounded cursor-pointer transition-colors focus-visible:outline-none focus-visible:bg-gray-200 focus-visible:dark:bg-gray-600 hover:bg-gray-200 hover:dark:bg-blue-700
+	}
+
+	button[disabled]{
+		@apply !bg-slate-500 text-gray-200 dark:text-gray-400 cursor-not-allowed
+	}
+
+}
+
+@layer utilities {
+	.error-msg{
+		@apply p-2 text-red-500
+	}
+
+	.btn-primary {
+		@apply bg-blue-600 hover:bg-blue-700 text-white;
+	}
+
+	.btn-danger {
+		@apply bg-red-600 hover:!bg-red-700 text-white;
+	}
+}
+
+@layer components{
+	.avatar{
+		@apply rounded-full max-w-full border
+	}
+
+	.border-colors{
+		@apply border-gray-300 dark:border-slate-600
+	}
+}

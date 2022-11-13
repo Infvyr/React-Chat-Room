@@ -1,0 +1,76 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"jest": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:import/react",
+		"plugin:react/recommended",
+		"plugin:react/jsx-runtime",
+		"plugin:prettier/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx"]
+		}
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["react", "import", "@typescript-eslint", "react-hooks"],
+	"ignorePatterns": ["*.config.cjs"],
+	"rules": {
+		"no-console": "off",
+		"no-unused-vars": [
+			"warn",
+			{
+				"argsIgnorePattern": "^_"
+			}
+		],
+		"react/no-unescaped-entities": "off",
+		"react/self-closing-comp": [
+			"error",
+			{
+				"component": true,
+				"html": true
+			}
+		],
+		"prettier/prettier": [
+			"error",
+			{
+				"singleQuote": false
+			}
+		],
+		"sort-imports": [
+			"error",
+			{
+				"ignoreCase": true,
+				"ignoreDeclarationSort": true
+			}
+		],
+		"import/no-unresolved": [
+			"off",
+			{
+				"commonjs": true,
+				"amd": true
+			}
+		],
+		"import/named": "error",
+		"import/namespace": "error",
+		"import/default": "error",
+		"import/export": "error",
+		"no-duplicate-imports": "error",
+		"arrow-body-style": ["error", "as-needed"]
+	}
+}
